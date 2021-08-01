@@ -34,6 +34,6 @@ int main( )
     int array[10] = { 1, 8, 13, 14, 15, 30, 44, 50 , 52 , 100};
     int size = sizeof(array)/sizeof(array[0]);
     int index = binary_search(array , 15 , size );
-    cout << "found the number : " << array[index] << " at index : " << index;
+    cout << "Found the number : " << array[index] << " at index : " << index;
     return 0;
 }
